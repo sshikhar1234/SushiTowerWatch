@@ -19,6 +19,8 @@
 		68D3476B2369DCCE0065DA3B /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D3476A2369DCCE0065DA3B /* InterfaceController.swift */; };
 		68D3476D2369DCCE0065DA3B /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D3476C2369DCCE0065DA3B /* ExtensionDelegate.swift */; };
 		68D3476F2369DCCF0065DA3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68D3476E2369DCCF0065DA3B /* Assets.xcassets */; };
+		68D3477F2369DD6B0065DA3B /* SushiPiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D3477E2369DD6B0065DA3B /* SushiPiece.swift */; };
+		68D347812369DD960065DA3B /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D347802369DD960065DA3B /* GameScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +82,8 @@
 		68D3476C2369DCCE0065DA3B /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		68D3476E2369DCCF0065DA3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		68D347702369DCCF0065DA3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68D3477E2369DD6B0065DA3B /* SushiPiece.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SushiPiece.swift; sourceTree = "<group>"; };
+		68D347802369DD960065DA3B /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +127,8 @@
 		68D347462369DCC90065DA3B /* SushiTowerWatch */ = {
 			isa = PBXGroup;
 			children = (
+				68D347802369DD960065DA3B /* GameScene.swift */,
+				68D3477E2369DD6B0065DA3B /* SushiPiece.swift */,
 				68D347472369DCC90065DA3B /* AppDelegate.swift */,
 				68D347492369DCC90065DA3B /* ViewController.swift */,
 				68D3474B2369DCC90065DA3B /* Main.storyboard */,
@@ -286,7 +292,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68D3477F2369DD6B0065DA3B /* SushiPiece.swift in Sources */,
 				68D3474A2369DCC90065DA3B /* ViewController.swift in Sources */,
+				68D347812369DD960065DA3B /* GameScene.swift in Sources */,
 				68D347482369DCC90065DA3B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
